@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo {
+    padding-left: 1rem;
+}
+.header .menu ul {
+    display: flex;
+    list-style: none;
+}
+.header .menu ul li {
+    padding: 1rem 2rem;
+    transition: .3s;
+    font-weight: bold;
+}
+.header .menu ul li:hover {
+    background-color: black;
+    cursor: pointer;
+}
